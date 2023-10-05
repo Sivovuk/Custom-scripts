@@ -7,9 +7,9 @@ using Newtonsoft.Json; // Import Newtonsoft.Json
 public class GoogleOAuth2Login : MonoBehaviour
 {
     public Text statusText;
-    public string clientId = "https://702839863875-qqrvo12i37f0vd6mqjeod950pi5pa16t.apps.googleusercontent.com";
+    public string clientId = "id";
     //public string clientId = "http://localhost:3000";
-    public string clientSecret = "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"; // Keep this secure
+    public string clientSecret = "secret"; // Keep this secure
     public string redirectUri = "http://localhost";
 
     private const string authEndpoint = "https://accounts.google.com/o/oauth2/auth";
